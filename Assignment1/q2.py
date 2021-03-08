@@ -1,4 +1,4 @@
-ipt = (input("Enter an integer:"))
+ipt = int(input("Enter an integer:"))
 
 itg = str(ipt)
 if ipt < 0:
