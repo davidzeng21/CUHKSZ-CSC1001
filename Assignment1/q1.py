@@ -1,0 +1,5 @@
+final = float(input("Enter the final account value:"))
+rt = float(input("Enter the annual interest rate:"))
+yr = float(input("Enter the number of years:")) 
+ini = str(final/((1+rt*0.01)**yr))
+print("The initial value is: " + ini)
